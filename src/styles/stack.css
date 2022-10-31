@@ -1,0 +1,20 @@
+
+.stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+   
+}
+
+.flex-item {
+   border: 2px solid blue;
+}
+
+.flex {
+
+  border: 1px solid green;
+ display: flex;
+ gap: 2rem;
+  
+}
