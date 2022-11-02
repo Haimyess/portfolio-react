@@ -2,19 +2,41 @@
 .stack {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-   
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10rem;
+  
+
 }
 
 .flex-item {
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
+
 }
 
-.flex {
+.grid-skills {
+    width: 50%;
+   
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    /* flex-direction: column; */
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    /* overflow: scroll; */
 
-  border: 1px solid green;
- display: flex;
- gap: 2rem;
-  
+}
+
+
+
+.stack-img {
+    width: 170px;
+    max-width: 100%;
+}
+
+.stack-name {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
 }

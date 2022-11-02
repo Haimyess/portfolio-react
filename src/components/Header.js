@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='header-container'>
       <header className='nav-container'>
-        <p>Gyngee</p>
+        <p className='logo'>Haim Yeshurun</p>
         <nav>
           <ul className='list'>
             <HashLink to='#home' className='list-item' smooth>

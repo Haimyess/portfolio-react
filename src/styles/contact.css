@@ -1,0 +1,53 @@
+
+.form-container {
+    width: 35vw;
+   
+}
+.info-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.form-wrapper {
+     margin-top: 3rem;
+}
+
+
+input[type='text'],[type='email'] {
+    /* padding: 1rem 2rem; */
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 1px solid var(--accent);
+    width: 48%;
+    font-weight: bold;
+    color: black;
+   
+}
+
+
+
+.message-container {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    border: none;
+     border-bottom: 1px solid var(--accent);
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: clamp(1rem, 3vh, 10rem);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
