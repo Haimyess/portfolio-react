@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Stack from "./pages/Stack";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <SocialLinks />
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.social-links {
+    position: fixed;
+    left: 3%;
+    top: 40%;
+    writing-mode: vertical-rl;
+}
+
+.icon {
+    padding: .5rem;
+    font-size: 2rem;
+    /* transform: perspective(1px) translateZ(0); */
+    transition: .3s;
+}
+.link {
+    color: #000;
+}
+
+.icon:hover {
+    transform: scale(130%);
+    color: #064663;
+    
+}
+
+/* animate__rubberBand */

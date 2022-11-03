@@ -16,11 +16,26 @@
 
 
 .main-p {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
+    margin-left: 1rem;
     font-size: 2rem;
 }
 
 .resume-container {
     width: 100%;
     text-align: center;
+    margin-top: 3rem;
+}
+
+.letter-animation {
+    transition: .3s;
+}
+
+.letter-animation:hover {
+    /* transform: scale(120%); */
+    transform: translateY(20px);
+}
+
+.name {
+    color: var(--btn-bg-color);
 }
