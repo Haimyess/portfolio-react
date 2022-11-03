@@ -1,12 +1,20 @@
 /** @format */
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 import emailjs from "@emailjs/browser";
 
 import "../styles/contact.css";
 
 function Contact() {
+  useEffect(() => {
+    const timeOut = setTimeout(() => {
+      setMsg(false);
+      console.log("Message is gone!");
+    }, 5000);
+    return () => clearTimeout(timeOut);
+  }, []);
+
   const form = useRef();
 
   const [msg, setMsg] = useState(false);
@@ -70,7 +78,9 @@ function Contact() {
             <input className='btn' type='submit' value='Hire me' />
           </div>
         </form>
-        {msg && <p> Your message has been sent succesfully.</p>}
+        {msg && (
+          <p className='msg-succ'> Your message has been sent succesfully.</p>
+        )}
       </div>
     </section>
   );
