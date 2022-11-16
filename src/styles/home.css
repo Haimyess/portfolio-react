@@ -100,3 +100,12 @@
 
 
 }
+.animation {
+    transition: .3s;
+    /* display: inline-block; */
+  
+}
+.animation:hover {
+    color: var(--btn-bg-color);
+    transform: scale(1.3);
+}

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import MyCv from "../HaimYeshurun.pdf";
+import MyCv from "../HaimYeshurunCV.pdf";
 
 // styles
 import "../styles/home.css";
@@ -43,6 +43,8 @@ function Home() {
   //   });
   // };
 
+  const title = "Hi there!, my name is Haim";
+
   return (
     <section className='wrapper home ' id='home'>
       <div className='circle top'></div>
@@ -52,10 +54,19 @@ function Home() {
         <div className='title-container'>
           <div className='wrapper-text'>
             <h1 className='main-title'>
+              {title.split("").map((letter, i) => {
+                return (
+                  <span className='animation' key={i}>
+                    {letter}
+                  </span>
+                );
+              })}
+            </h1>
+            {/* <h1 className='main-title'>
               <span className='letter-animation'>H</span>i there, <br /> my name
               is
               <span className='name'>Haim</span>
-            </h1>
+            </h1> */}
             <p className='main-p'>
               I am a Web developer during the day and a dreamer during the
               night.

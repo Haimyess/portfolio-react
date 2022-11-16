@@ -17,8 +17,12 @@ function ProjectCard({ projects }) {
             <p className='project-desc'>{projects.desc}</p>
           </div>
           <div className='project-tech'>
-            {projects.tech.map((tech) => {
-              return <span className='tech'>{tech}</span>;
+            {projects.tech.map((tech, i) => {
+              return (
+                <span key={i} className='tech'>
+                  {tech}
+                </span>
+              );
             })}
           </div>
           <div className='project-links-container'>
