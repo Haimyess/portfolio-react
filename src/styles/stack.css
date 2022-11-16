@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: 5rem;
   
 
 }
@@ -24,6 +24,7 @@
     /* flex-direction: column; */
     /* border: 1px solid red; */
     flex-wrap: wrap;
+    margin-top: 2rem;
     /* overflow: scroll; */
 
 }

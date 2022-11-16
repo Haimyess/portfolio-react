@@ -1,6 +1,10 @@
 
+.contact-wrapper {
+    height: 100vh;
+}
 .form-container {
     width: 35vw;
+    margin-bottom: 3rem;
    
 }
 .info-container {
@@ -12,7 +16,8 @@
 }
 
 .form-wrapper {
-     margin-top: 3rem;
+     display: flex;
+     justify-content: center;
 }
 
 
@@ -20,10 +25,11 @@ input[type='text'],[type='email'] {
     /* padding: 1rem 2rem; */
     font-size: 1.6rem;
     border: none;
-    border-bottom: 1px solid var(--accent);
+    border-bottom: 3px solid var(--accent);
     width: 48%;
     font-weight: bold;
     color: black;
+    padding-left: 1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
@@ -32,12 +38,14 @@ input[type='text'],[type='email'] {
 
 .message-container {
     width: 100%;
+    border: 3px solid var(--accent);
+    margin: 1rem 0 ;
 }
 
 .message {
     width: 100%;
     border: none;
-     border-bottom: 1px solid var(--accent);
+     /* border-bottom: 1px solid var(--accent); */
      padding: 1rem;
      font-size: 1.5rem;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -49,7 +57,7 @@ input[type='text'],[type='email'] {
 }
 
 .contact-p {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     text-align: center;
     font-size: clamp(1rem, 2.5vh, 10rem);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

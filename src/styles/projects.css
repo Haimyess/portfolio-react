@@ -3,11 +3,15 @@
 .project {
     justify-content: center;
     padding: 3rem;
+    /* border: 2px solid green; */
+    width: 90%;
+     /* overflow-x: scroll; */
+    
    
 }
 .project-card {
     /* border: 1px solid green; */
-    width: 30%;
+    width: 400px;
 
     
 }

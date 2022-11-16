@@ -45,22 +45,30 @@ function Home() {
 
   return (
     <section className='wrapper home ' id='home'>
-      <div className='title-container'>
-        <h1 className='main-title'>
-          <span className='letter-animation'>H</span>i there, <br /> my name is
-          <span className='name'>Haim</span>
-        </h1>
-        <p className='main-p'>
-          I am a Web developer during the day and a dreamer during the night.
-        </p>
-
-        <div className='resume-container'>
-          {/* <button onClick={onButtonClick} className='btn'>
+      <div className='circle top'></div>
+      <div className='circle right'></div>
+      <div className='circle left'></div>
+      <div className='home-container'>
+        <div className='title-container'>
+          <div className='wrapper-text'>
+            <h1 className='main-title'>
+              <span className='letter-animation'>H</span>i there, <br /> my name
+              is
+              <span className='name'>Haim</span>
+            </h1>
+            <p className='main-p'>
+              I am a Web developer during the day and a dreamer during the
+              night.
+            </p>
+          </div>
+          <div className='resume-container'>
+            {/* <button onClick={onButtonClick} className='btn'>
             Resume
           </button> */}
-          <a href={MyCv} download={"Haim-Yeshurun-CV"} className='btn'>
-            Resume
-          </a>
+            <a href={MyCv} download={"Haim-Yeshurun-CV"} className='btn'>
+              Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
