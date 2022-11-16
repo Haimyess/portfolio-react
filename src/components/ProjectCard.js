@@ -8,14 +8,19 @@ function ProjectCard({ projects }) {
   // Open new tab links
 
   return (
-    <article>
-      <div className='project-img'>
-        <img src='' alt='' />
-      </div>
+    <article className='project-card'>
       <div className='project-links'>
         <img className='project-img' src={projects.img} />{" "}
         <div className='hover-info'>
           <p className='project-name'>{projects.name}</p>
+          <div className='project-desc-container'>
+            <p className='project-desc'>{projects.desc}</p>
+          </div>
+          <div className='project-tech'>
+            {projects.tech.map((tech) => {
+              return <span className='tech'>{tech}</span>;
+            })}
+          </div>
           <div className='project-links-container'>
             <a href={projects.link} className='project-link'>
               Demo
