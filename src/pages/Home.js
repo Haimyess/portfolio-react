@@ -43,7 +43,10 @@ function Home() {
   //   });
   // };
 
-  const title = "Hi there!, my name is Haim";
+  const title = "Hi there!, my name is";
+  const greetings = title.slice(0, 10);
+  const restOfTex = title.slice(10);
+  // console.log(greetings);
 
   return (
     <section className='wrapper home ' id='home'>
@@ -54,13 +57,24 @@ function Home() {
         <div className='title-container'>
           <div className='wrapper-text'>
             <h1 className='main-title'>
-              {title.split("").map((letter, i) => {
+              {greetings.split("").map((letter, i) => {
                 return (
                   <span className='animation' key={i}>
                     {letter}
                   </span>
                 );
-              })}
+              })}{" "}
+              <br />
+              {/* <br /> */}
+              {restOfTex.split("").map((letter, i) => {
+                return (
+                  <span className='animation ' key={i}>
+                    {letter}
+                  </span>
+                );
+              })}{" "}
+              <span style={{ color: "var(--accent)" }}>H</span>
+              <span className='animation'>aim</span>
             </h1>
             {/* <h1 className='main-title'>
               <span className='letter-animation'>H</span>i there, <br /> my name

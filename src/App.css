@@ -33,21 +33,25 @@
     justify-content: flex-start;
     padding-top: 5rem;
     flex-direction: column;
-
-  
-   
+ 
 }
+
+
+/* This will have to be with media queries. */
+/* .main-title {
+  font-size: clamp(2rem, 8vw, 10rem); 
+  font-weight: 700;
+  color: var(--btn-bg-color);
+  padding: 3rem 0 0 0 ;
+   
+} */
 .main-title {
 
-
-  font-size: clamp(2rem, 8vw, 10rem);
-  /* font-size: 8rem; */
-  font-weight: 700;
-  /* line-height: 9vh; */
-  /* margin: 0; */
-  
-  color: var(--accent);
-  padding: 3rem 0;
+  font-size: 8rem;
+  line-height: 5vw;
+  font-weight: 700;  
+  color: var(--btn-bg-color);
+  padding: 3rem 0 0 0 ;
    
 }
 

@@ -10,13 +10,12 @@ function Header() {
   return (
     <div className='header-container'>
       <header className='nav-container'>
-        <p className='logo'>Haim Yeshurun</p>
+        <HashLink to='#home' className='logo' smooth>
+          Haim Y.
+        </HashLink>
+        {/* <p className='logo'>Haim Yeshurun</p> */}
         <nav>
           <ul className='list'>
-            <HashLink to='#home' className='list-item' smooth>
-              {" "}
-              Home
-            </HashLink>
             <HashLink to='#stack' className='list-item' smooth>
               {" "}
               Stack

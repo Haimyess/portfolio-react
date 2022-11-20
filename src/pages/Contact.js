@@ -44,7 +44,7 @@ function Contact() {
   return (
     <section className='wrapper container' id='contact'>
       <div className='contact-wrapper'>
-        <h1 className='sub-title'>Send me a message!</h1>
+        <h1 className='sub-title contact-title'>Send me a message!</h1>
         <p className='contact-p'>
           Share your thoughts with me, so we can talk about your next project!
         </p>

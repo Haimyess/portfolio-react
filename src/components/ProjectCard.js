@@ -11,6 +11,19 @@ function ProjectCard({ projects }) {
     <article className='project-card'>
       <div className='project-links'>
         <img className='project-img' src={projects.img} />{" "}
+        <div className='project-links-container'>
+          <a href={projects.link} className='project-link'>
+            Demo
+          </a>
+          <a
+            href={projects.github}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='project-link'>
+            {" "}
+            Code
+          </a>
+        </div>
         <div className='hover-info'>
           <p className='project-name'>{projects.name}</p>
           <div className='project-desc-container'>
@@ -24,19 +37,6 @@ function ProjectCard({ projects }) {
                 </span>
               );
             })}
-          </div>
-          <div className='project-links-container'>
-            <a href={projects.link} className='project-link'>
-              Demo
-            </a>
-            <a
-              href={projects.github}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='project-link'>
-              {" "}
-              Code
-            </a>
           </div>
         </div>
       </div>

@@ -71,3 +71,41 @@ input[type='text'],[type='email'] {
     font-size: 1.2rem;
     color: var(--accent);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    /* contact */
+
+.contact-title {
+    font-size: 4.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.contact-p {
+    display: none;
+}
+
+
+    .info-container {
+    flex-direction: column ;
+
+    /* margin-top: 1rem; */
+}
+
+input[type='text'], [type = 'email'] {
+    width: 100%;
+
+}
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.message-container {
+    margin-top: 2.5rem;
+}
+
+}

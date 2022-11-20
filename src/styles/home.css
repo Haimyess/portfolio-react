@@ -16,39 +16,63 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    width: 80%;
-    /* border: 2px solid red; */
-}
-.title-container {
-    /* border: 1px solid black; */
-    /* margin-top: 15rem; */
-    /* border: 2px solid green; */
-    height: 60vh;
-    width: 100%;
- 
+  
   
 }
 
+
+/* This with media queries */
+/* .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+  
+} */
+.title-container {
+    height: 60vh;
+    width: 100%;
+    line-height: 3.5em;
+}
+/* This will be with media queries */
+/* .title-container {
+    height: 60vh;
+    width: 100%;
+    line-height: 5.5vw;
+} */
+
 .wrapper-text {
-    /* border: 2px solid blue; */
-    /* padding-left: 10rem; */
+    width: 100%;
+   margin-bottom: 2rem;
+ 
+   
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
+}
+/* this will be with media queries */
+/* .wrapper-text {
+    padding-left: 5rem;
     width: 80%;
     margin: 0 auto;
- 
-}
+} */
 
 
 
 .main-p {
-    margin: 1.5rem 0;
+    /* margin: 1.5rem 0; */
     margin-left: 1rem;
-    font-size: 2vw;
+    margin-top: 1rem ;
+    font-weight: bold;
+    font-size: 1.6vw;
+    
 }
 
 .resume-container {
     width: 100%;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .letter-animation {
@@ -93,19 +117,66 @@
 }
 
 .right {
-    width: 200px;
-    height: 200px;
-     bottom: 0;
-    right: 0;
+    width: 300px;
+    height: 300px;
+     bottom: -100px;
+    right: -100px;
 
 
 }
 .animation {
     transition: .3s;
+    display:inline;
     /* display: inline-block; */
   
 }
 .animation:hover {
-    color: var(--btn-bg-color);
+    color: var(--accent);
     transform: scale(1.3);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Home */
+.circle {
+    display: none;
+}
+
+.nav-container {
+    padding: 1rem;
+}
+
+.main-title {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    padding: 0;
+    /* padding-top: 2.5rem; */
+    /* padding-right: 2.5rem; */
+}
+
+.main-p {
+    margin-top: 1rem;
+    margin-left: 0;
+    /* padding-right: 2.5rem; */
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
+}
+
+.wrapper-text {
+    /* padding-left: 3rem; */
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+}
+
+.social-links {
+   display: none;
+
+}
+
+
+
+} 

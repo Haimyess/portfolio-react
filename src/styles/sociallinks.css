@@ -3,13 +3,14 @@
     left: 3%;
     top: 40%;
     writing-mode: vertical-rl;
+    z-index: 4;
 }
 
 .icon {
     padding: .5rem;
     font-size: 2rem;
     /* transform: perspective(1px) translateZ(0); */
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 .link {
     color: #000;
