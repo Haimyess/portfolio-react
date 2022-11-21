@@ -85,3 +85,14 @@
     
 }
 
+@media only screen and (max-width : 800px) {
+
+    .stack-img {
+        width: 140px;
+    }
+
+    .grid-skills {
+        gap: 2.5rem;
+    }
+
+}

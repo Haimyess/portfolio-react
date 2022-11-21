@@ -73,12 +73,12 @@ input[type='text'],[type='email'] {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     /* contact */
 
 .contact-title {
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 3.5rem;
     text-align: center;
 }
@@ -91,7 +91,7 @@ input[type='text'],[type='email'] {
     .info-container {
     flex-direction: column ;
 
-    /* margin-top: 1rem; */
+    margin-top: 2rem;
 }
 
 input[type='text'], [type = 'email'] {
@@ -105,7 +105,10 @@ input[type='text'], [type = 'email'] {
 }
 
 .message-container {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
+
+
 
 }
