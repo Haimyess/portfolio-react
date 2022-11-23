@@ -19,7 +19,9 @@
     font-size: 1.5rem;
     transition: .3s ease-in-out;
     opacity: 85%;
+     border-bottom: 3px solid transparent;
 }
+
 
 .list-item:hover {
     opacity: 100%;

@@ -56,30 +56,38 @@ function Contact() {
                 type='text'
                 placeholder='Your name:'
                 name='user_name'
+                required
               />
               <input
                 className='email-input'
                 type='email'
                 placeholder='Your e-mail:'
                 name='user_email'
+                required
               />
             </div>
             <div className='message-container'>
               <textarea
                 className='message'
+                required
                 // cols='30'
                 rows='5'
                 placeholder='Write your message here...'
                 name='user_message'></textarea>
             </div>
             <div className='btn-container'>
-              <input className='btn' type='submit' value='Hire me' />
+              <input
+                className='btn'
+                type='submit'
+                value='Hire me'
+                disabled={""}
+              />
             </div>
           </form>
-          {msg && (
-            <p className='msg-succ'> Your message has been sent succesfully.</p>
-          )}
         </div>
+        {msg && (
+          <p className='msg-succ'> Your message has been sent succesfully.</p>
+        )}
       </div>
     </section>
   );
