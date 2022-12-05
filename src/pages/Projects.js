@@ -15,15 +15,6 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      name: "Shopy Ecommerce Fullstack",
-      img: "https://live.staticflickr.com/65535/52471628481_42bb155c82_o.jpg",
-      link: "https://shopy-ecommerce-app.netlify.app/",
-      github: "https://github.com/Haimyess/ecommerce-fullstack-frontend",
-      desc: "Fullstack project supermarket with login, sort, search and filtering.",
-      tech: ["React", "Node.js", "Postgres"],
-    },
-    {
-      id: 2,
       name: "Movie App",
       img: "https://live.staticflickr.com/65535/52502791589_cf85fcdf4f_k.jpg",
       link: "https://muvi-app.netlify.app/",
@@ -32,7 +23,25 @@ function Projects() {
       tech: ["React", "Node.js", "API"],
     },
     {
+      id: 2,
+      name: "Event Booking app",
+      img: "https://live.staticflickr.com/65535/52544213303_6d271a4534_b.jpg",
+      link: "https://outlandlife.netlify.app",
+      github: "https://github.com/Haimyess/events-booking-client",
+      desc: "Fullstack App to find the events in the city. There is a login functionality, that allow users to create and admin their events. Also is possible to filter to get a more accurate search and leave reviews in each event. Future implementation of ticket rendering and payment method",
+      tech: ["React", "Node.js", "Postgres"],
+    },
+    {
       id: 3,
+      name: "Shopy Ecommerce Fullstack",
+      img: "https://live.staticflickr.com/65535/52471628481_42bb155c82_o.jpg",
+      link: "https://shopy-ecommerce-app.netlify.app/",
+      github: "https://github.com/Haimyess/ecommerce-fullstack-frontend",
+      desc: "Fullstack project supermarket with login, sort, search and filtering.",
+      tech: ["React", "Node.js", "Postgres"],
+    },
+    {
+      id: 4,
       name: "100 Days Coding React",
       img: "https://live.staticflickr.com/65535/52472171153_10148b4eef_o.jpg",
       link: "https://100daycoding.netlify.app/",
