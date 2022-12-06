@@ -97,6 +97,10 @@
         background-color: var(--accent);
     }
 
+    .header-container {
+        background-color: #FFF89A;
+    }
+
     .header-container #hideLogo {
         display: none;
     }

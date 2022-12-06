@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import MyCv from "../HaimYeshurunCV.pdf";
+import MyCv from "../HaimYeshurunCVTech.pdf";
 
 // styles
 import "../styles/home.css";

@@ -17,15 +17,13 @@
 .grid-skills {
     width: 50%;
    
-      display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    /* flex-direction: column; */
-    /* border: 1px solid red; */
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     margin-top: 2rem;
-    /* overflow: scroll; */
+  
 
 }
 
@@ -40,4 +38,16 @@
     text-align: center;
     margin-top: 1rem;
     font-size: 1rem;
+}
+
+@media only screen and (max-width : 800px) {
+
+  .stack-img{
+    width: 50%;
+  }
+
+  .grid-skills {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
