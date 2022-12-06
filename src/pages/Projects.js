@@ -25,7 +25,7 @@ function Projects() {
     {
       id: 2,
       name: "Event Booking app",
-      img: "https://live.staticflickr.com/65535/52544213303_6d271a4534_b.jpg",
+      img: "https://live.staticflickr.com/65535/52546319161_d8a91b2364_k.jpg",
       link: "https://outlandlife.netlify.app",
       github: "https://github.com/Haimyess/events-booking-client",
       desc: "Fullstack App to find the events in the city. There is a login functionality, that allow users to create and admin their events. Also is possible to filter to get a more accurate search and leave reviews in each event. Future implementation of ticket rendering and payment method",
